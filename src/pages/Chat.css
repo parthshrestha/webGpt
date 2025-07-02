@@ -1,0 +1,32 @@
+.chat-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.chat-box {
+  min-height: 300px;
+  max-height: 70vh;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.chat-form {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-form input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.chat-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

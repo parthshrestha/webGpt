@@ -1,0 +1,33 @@
+.bubble-container {
+  display: flex;
+  margin: 10px;
+}
+
+.bubble-container.user {
+  justify-content: flex-end;
+}
+
+.bubble-container.assistant {
+  justify-content: flex-start;
+}
+
+.bubble {
+  background-color: #eae6ff;
+  color: #333;
+  padding: 10px 14px;
+  border-radius: 18px;
+  max-width: 70%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.bubble-container.user .bubble {
+  background-color: #7c3aed; /* purple */
+  color: white;
+  border-bottom-right-radius: 0;
+}
+
+.bubble-container.assistant .bubble {
+  background-color: #f1f1f1;
+  color: #111;
+  border-bottom-left-radius: 0;
+}
